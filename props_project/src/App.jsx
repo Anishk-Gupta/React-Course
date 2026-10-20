@@ -114,8 +114,11 @@ const profileData = [
 const App = () => {
   return (
     <div className='parent'>
-      {profileData.map(function(data){
-        return <Card name={data.name} image={data.image} profession={data.profession} company={data.company} rate={data.rate} status={data.status} bio={data.bio} skills={data.skills}/>
+      {profileData.map(function(data , idx){
+        // key props key = {idx} jisse react sabhi ko uniquely identify kar pata hain and map jisko return karta hai uspar key lagayi jati hain
+        return <div key={idx}> 
+          <Card name={data.name} image={data.image} profession={data.profession} company={data.company} rate={data.rate} status={data.status} bio={data.bio} skills={data.skills}/>
+        </div>
       })}
     </div>
   )

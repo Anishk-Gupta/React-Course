@@ -12,12 +12,12 @@ const Card = (props) => {
         <div className="middle">
           <img src={props.image} alt="" />
           <h3>{props.name}</h3>
-          <p style={{marginTop:"6px",color:"gray+"}}>{props.profession}</p>
+          <p style={{marginTop:"6px",color:"gray"}}>{props.profession}</p>
           <p style={{color:"blue" , marginTop :"6px"}}>{props.company}</p>
           <div id='m1'>
             {
-                props.skills.map(function(data){
-                    return <p>{data}</p>
+                props.skills.map(function(data,idx){
+                    return <p key={idx}>{data}</p>
                 })
             }
             <div>

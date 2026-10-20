@@ -10,7 +10,6 @@ body{
 .top{
   display : flex;
   justify-content: space-around;
-  gap : 80px;
 }
 
 .top #t1{
@@ -86,5 +85,5 @@ body{
 
 .bottom{
   margin-top: 25px;
-  margin-bottom: 25px;;\
+  margin-bottom: 25px;
 }
