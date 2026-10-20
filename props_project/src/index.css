@@ -1,0 +1,90 @@
+*{
+  padding : 0px;
+  margin : 0px;
+}
+
+body{
+  background-color: aliceblue;
+}
+
+.top{
+  display : flex;
+  justify-content: space-around;
+  gap : 80px;
+}
+
+.top #t1{
+  padding:4px 8px;
+  color : white;
+  border-radius: 25px;
+  background-color: rgb(133, 221, 133);
+}
+
+.top #t2{
+  font-weight:500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card{
+  box-shadow: inset;
+  padding-top : 10px;
+  margin : 25px;
+  min-height : 350px;
+  width : 300px;
+  border-radius: 10px;
+  border : 1px solid white;
+  text-align: center;
+  background-color: white;
+}
+
+.middle{
+  margin-top: 4px;
+}
+.middle img{
+  height : 110px;
+  width : 110px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.middle h3{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.middle #m1{
+  margin-top: 8px;
+  display : flex;
+  justify-content: space-evenly;
+}
+
+.middle #m1 p{
+  border : 1px solid black;
+  padding : 5px 12px;
+  border-radius: 40px;
+}
+
+.middle #m1 div p{
+  background-color: rgb(46, 141, 230);
+}
+
+.middle #desc{
+  margin-top : 20px;
+  color:gray
+}
+
+.middle #m2{
+  margin-top : 12px;
+  border-bottom: 1px solid gray;
+}
+
+.bottom{
+  margin-top: 25px;
+  margin-bottom: 25px;;\
+}
